@@ -4,16 +4,6 @@ def main():
     def setup_player():
         """
         Prompts the user to create their player profile.
-
-        Returns:
-            dict: A dictionary containing player stats with the following keys:
-                - "name" (str): Player's name (entered by user)
-                - "health" (int): Starting health, set to 10
-                - "inventory" (list): Starts as an empty list
-        Example:
-            >>> setup_player()
-            Enter your name: Ailene
-            {'name': 'Ailene', 'health': 10, 'inventory': []}
         """
         name = input("Enter your name: ").strip()
         if not name:
